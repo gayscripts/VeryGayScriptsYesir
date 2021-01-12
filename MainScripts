@@ -33,6 +33,6 @@ if game.PlaceId == 155615604 then
         warn("BigPaintBall Currently Not Avaible Sorry :[")
     end
 
-    if CBRO = true then 
+    if CBRO == true then 
         warn("CBRO Currently Not Avaible Sorry :[")
     end
