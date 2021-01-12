@@ -1,0 +1,38 @@
+local PrisonLife = false
+local Arsenal = false
+local BigPaintBall = false
+local CBRO = false
+
+if  game.PlaceId == 286090429 then
+  Arsenal = true
+end
+
+if game.PlaceId == 155615604 then
+    PrisonLife = true
+    end
+
+    if game.PlaceId == 3527629287 then
+      BigPaintBall = true
+    end
+
+    if game.PlaceId == 301549746 then
+        CBRO = true
+      end
+              
+    		
+    
+    if PrisonLife == true then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gayscripts/VeryGayScriptsYesir/main/Prison%20Life"))();
+    end
+    
+    if Arsenal == true then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gayscripts/VeryGayScriptsYesir/main/Arsenal"))();
+    end
+
+    if BigPaintBall == true then
+        warn("BigPaintBall Currently Not Avaible Sorry :[")
+    end
+
+    if CBRO = true then 
+        warn("CBRO Currently Not Avaible Sorry :[")
+    end
